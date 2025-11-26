@@ -7,6 +7,7 @@ Driving_Data_Raw.zip中包括两类数据：
         年 月 日 时-分-秒.csv
         2022 Dec 13 17-51-33.csv
     1.2 数据结构
+   
             Seg = RAW_DATA(head:tail,1);         %Seg index                  √
         	Seg = Seg+1;	%Seg原本从0开始, 现改为从1开始
             Time = RAW_DATA(head:tail,2);        %Time
@@ -50,5 +51,6 @@ Driving_Data_Raw.zip中包括两类数据：
         年 月 日 时-分-秒_Yolo_Result.csv
         2022 Dec 13 17-51-33_Yolo_Result.csv
     2.2 数据结构
+   
         Yolo_Index = YOLO_RAW_DATA(:,2);    % YOLO段Index
         Yolo_VehNum = YOLO_RAW_DATA(:,3);   % 车流量
